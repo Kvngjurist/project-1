@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+venv/
+
+# Jupyter runtime
+.ipynb_checkpoints/
+
+# Source and generated data (obtain raw workbook from the UCI source)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Local environment files
+.env
